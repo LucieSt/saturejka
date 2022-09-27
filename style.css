@@ -9,3 +9,29 @@ h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #ffefef;
+    margin: auto;
+    width: auto;
+}
+
+.logo-text {
+}
+
+.main-headline {
+    text-align: center;
+}
+
+.main-subheadline {
+    text-align: center;
+}
+
+.main-part {
+    width: 350px;
+    margin: auto;
+}
