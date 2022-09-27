@@ -14,6 +14,10 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: 20px;
+}
+
 .header {
     background-color: #ffefef;
     margin: auto;
@@ -22,7 +26,14 @@ body {
 
 .logo-text {
     text-align: center;
-    margin-top: 0;
+    padding: 30px 350px 50px;
+}
+
+.logo-img {
+    display: block;
+    margin: auto;
+    padding: 50px auto 50px auto;
+    padding-top: 50px;
 }
 
 .main-headline {
@@ -34,6 +45,6 @@ body {
 }
 
 .main-part {
-    width: 350px;
+    width: 450px;
     margin: auto;
 }
