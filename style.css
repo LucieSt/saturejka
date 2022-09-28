@@ -20,7 +20,7 @@ p {
 
 .main-div {
     background-color: #ffefef;
-    max-width: 1118px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@ p {
 
 .logo-text {
     text-align: center;
-    padding: 30px 350px;
+    padding: 30px 20px;
     margin: 0 auto;
 }
 
@@ -49,14 +49,14 @@ p {
 }
 
 .main-part {
-    padding: 0 160px;
+    padding: 0;
     margin: auto;
 }
 
 .main-headline {
     padding: 50px 0 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .main-subheadline {
@@ -65,24 +65,76 @@ p {
 }
 
 .img-container {
-    padding: 50px 0;
+    padding: 60px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.img-line {
-
+.text-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 60px;
 }
 
 .text-par {
     font-size: 14px;
 }
 
+.par1 {
+    padding-right: 15px;
+    width: 100%;
+}
 
+.par2 {
+    padding-left: 15px;
+    width: 100%;
+}
+
+.item-container {
+    align-items: center;
+    display: flex;
+    column-gap: 80px;
+    padding: 0 0 20px;
+}
+
+div.item-container-right {
+    justify-content: right;
+}
+
+.img-dish-1 {
+    
+}
+
+.item-text {
+    width: 45%;
+}
+
+div.item-text-right {
+    text-align: right;
+}
+
+.headline-style {
+    font-size: 28px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.text-style {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.btn {
+    background-color: #ffefef;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
 
 .outro {
     margin: 0 auto;
-    padding: 50px 280px;
-    font-size: 15px;
+    padding: 50px 20px;
+    font-size: 14px;
     text-align: center;
 }
