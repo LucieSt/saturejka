@@ -18,15 +18,21 @@ p {
     font-size: 20px;
 }
 
-.header {
+.main-div {
     background-color: #ffefef;
+    max-width: 1118px;
+    margin: auto;
+}
+
+.header {
     margin: auto;
     width: auto;
 }
 
 .logo-text {
     text-align: center;
-    padding: 30px 350px 50px;
+    padding: 30px 350px;
+    margin: 0 auto;
 }
 
 .logo-img {
@@ -36,15 +42,47 @@ p {
     padding-top: 50px;
 }
 
+.main-block {
+    margin: 0 130px;
+    background-color: #ffffff;
+    padding: 0 80px;
+}
+
+.main-part {
+    padding: 0 160px;
+    margin: auto;
+}
+
 .main-headline {
+    padding: 50px 0 10px;
     text-align: center;
+    font-size: 30px;
 }
 
 .main-subheadline {
     text-align: center;
+    font-size: 16px;
 }
 
-.main-part {
-    width: 450px;
-    margin: auto;
+.img-container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-line {
+
+}
+
+.text-par {
+    font-size: 14px;
+}
+
+
+
+.outro {
+    margin: 0 auto;
+    padding: 50px 280px;
+    font-size: 15px;
+    text-align: center;
 }
